@@ -1,11 +1,12 @@
 import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //Задача 1;
         System.out.println("Задача 1");
-        int [] first = new int [] { 1, 2, 3 } ;
-        float [] two = {1.57f, 7.654f, 9.986f} ;
-        int [] free = new int [10] ;
+        int[] first = new int[]{1, 2, 3};
+        float[] two = {1.57f, 7.654f, 9.986f};
+        int[] free = new int[10];
         //Задача 2;
         System.out.println("Задача 2");
         for (int i = 0; i < first.length; i++) {
@@ -24,12 +25,14 @@ public class Main {
         double[] klop = {1.57, 7.654, 9.986};
         int[] boll = {3, 12, 20};
         System.out.println("задание 2");
-        for (int i = 0; i < box.length; i++) {
-            if (i < box.length - 1) {
+        for (int i = box.length - 1; i >= 0; i--) {
+            if (i > 0) {
                 System.out.print(box[i] + ", ");
             } else {
                 System.out.print(box[i]);
-                System.out.println();
+            }
+        }
+        System.out.println();
                 for (int i1 = 0; i1 < klop.length; i1++) {
                     if (i1 < klop.length - 1) {
                         System.out.print(klop[i1] + ", ");
@@ -57,4 +60,12 @@ public class Main {
                                         }
                                     }
 
-                                    System.out.println(Arrays.toString(box));  }}}}}}}}}
+                                    System.out.println(Arrays.toString(box));
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
